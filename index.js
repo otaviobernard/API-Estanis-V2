@@ -17,4 +17,4 @@ async function getMeme() {
     return memes
 }
 
-app.listen(3003)
+app.listen(process.env.PORT)
