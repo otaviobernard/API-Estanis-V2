@@ -5,7 +5,8 @@ const fetch = require('node-fetch');
 const memes = []
 
 app.get("/getMemes", (request, response) => {
-    return getMeme()
+    const meme getMeme()
+    return "ok"
 })
 
 async function getMeme() {
